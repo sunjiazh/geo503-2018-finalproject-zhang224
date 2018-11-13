@@ -18,6 +18,7 @@ Lyme disease is an infection caused by the bacteria Borrelia burgdorferi and is 
 
 Ticks can infect humans and pets with bacteria, viruses, and parasites that can cause serious illness. Infected deer ticks can be found throughout New York State,but not all deer ticks are infected with the bacteria. Lyme disease can affect people of any age. A vaccine for Lyme disease is not currently available.Steps to prevent Lyme disease include using insect repellent, removing ticks promptly, applying pesticides, and reducing tick habitat. The ticks that transmit Lyme disease can occasionally transmit other tickborne diseases as well.
 
+
 Click [here](http://www.healthecny.org/index.php?module=indicators&controller=index&action=view&indicatorId=305&localeId=132865) to get more information about Lyme Disease Incidence Rate in Central New York.
 
 #Data and Preparation:
@@ -63,6 +64,7 @@ map_disease <- full_join(map_sf,disease_select,by="NAME")
 ```
 
 Visualization of Lyme disease Incidence of every counties in New York State:
+
 
 ```{r}
 #visualization of Incidence of Lyme disease
